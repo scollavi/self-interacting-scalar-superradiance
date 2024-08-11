@@ -87,17 +87,3 @@ for i in range(len(param_list)):
     file = open(path,"w")
     file.write(param_list[i])
     file.close()
-
-# Generate plot to check for reasonable inputs
-fig, ax1 = plt.subplots(1,1,figsize=(5,5))
-# Plot data
-crange = np.linspace(14.7,17.0,num=9)
-plot1=ax1.contourf(bm_V*1e12,f_V,bhmi_V,crange)
-ax1.set_yscale("log")
-# Labels
-cbar = fig.colorbar(plot1,ax=ax1)
-cbar.set_label(r"Initial Mass ($M_\odot$)", fontsize="medium")
-ax1.set_xlabel("Boson mass ($10^{-12}$ eV/c$^2$)")
-ax1.set_ylabel("Interaction parameter, f (GeV)")
-# Save
-plt.savefig("ConditionCheck.jpg")
