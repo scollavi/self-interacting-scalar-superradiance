@@ -16,7 +16,7 @@ USA
 ### Simulation Code
 The code used for simulating the ultralight-scalar/black hole interactions, and processing it for data analysis (presentation of GW strains, drifts, etc.)
 ### Analysis Code
-The code used for analysing the results of the simulation code, and generating the plots in the paper. The code is split into the different scripts for Cygnus X-1's two ages, and MOA.
+The code used for analysing the results of the simulation code, and generating the plots in the paper. The code is split into the different scripts for Cygnus X-1's two ages, and MOA-2011.
 
 Also included are the processed data used in this analysis.
 ### Raw Data
