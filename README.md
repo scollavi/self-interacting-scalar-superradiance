@@ -20,4 +20,4 @@ The code used for analysing the results of the simulation code, and generating t
 
 Also included are the processed data used in this analysis.
 ### Raw Data
-The raw data produced from the (last mass estimate) of the simulations.
+The raw data produced from the last mass estimate of the simulations.
