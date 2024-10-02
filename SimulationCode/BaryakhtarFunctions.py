@@ -88,6 +88,16 @@ def compute_f_CD(age,bm,bhm,bhsi):
     alpha = compute_alpha(bm,bhm)
     return 3e14*(1e10/age)**(1/2)*(1e-13/bm)**(1/2)*(0.01/alpha)**(5/2)*(0.9/bhsi)**(3/4)
 
+def compute_f_axion(m):
+    '''
+    Returns the self-interaction f parameter for QCD axion
+    Inputs:
+    m - in eV
+    Returns:
+    f - in GeV
+    '''
+    return (0.34622)**-0.5 * (5.7064e-6*1e12/m)
+    
 def compute_m_bound_bm(m,bhm,bhs):
     """Inputs:
     m - magnetic quantum number
